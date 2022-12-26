@@ -3,6 +3,7 @@
     padding: 0;
 }
 
+
 .banner-design {
     background-image: url("images/donation4.jpg");
     background-repeat: no-repeat;
@@ -15,7 +16,7 @@
 
 
 #button {
-    background-color: #1472dc;
+    background-color: #FF5959;
     width: 100px;
     padding: 10px;
     border-radius: 10px;
@@ -28,4 +29,56 @@ h1,
 p {
 
     padding: 10px;
+}
+
+.middle-content {
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 30px;
+}
+
+.donation-amount {
+    display: flex;
+    text-align: center;
+    margin-left: 25%;
+    margin-bottom: 30px;
+
+}
+
+.donation-amount-design {
+    background-color: #FAFAFA;
+    padding: 2em;
+    margin-right: 15px;
+}
+
+.donation-amount-design-default {
+
+    background-color: #FFEEEE;
+    color: #FF5959;
+    padding: 2em;
+    margin-right: 15px;
+    border: 1px solid #FF5959;
+}
+
+.donation-other-amount {
+    text-align: center;
+}
+
+.set-opacity {
+    opacity: 0.5;
+}
+
+#button-donate {
+    background-color: #FF5959;
+    width: 100px;
+    padding: 10px;
+    border-radius: 10px;
+    margin-left: 46%;
+    margin-top: 20px;
+
+}
+
+hr {
+    margin-left: 20%;
+    margin-right: 20%;
 }
