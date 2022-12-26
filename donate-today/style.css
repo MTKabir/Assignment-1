@@ -75,10 +75,72 @@ p {
     border-radius: 10px;
     margin-left: 46%;
     margin-top: 20px;
+    margin-bottom: 2em;
 
 }
 
 hr {
     margin-left: 20%;
     margin-right: 20%;
+}
+
+.content {
+    text-align: center;
+    margin-bottom: 2em;
+
+}
+
+.donation-boxes {
+    display: flex;
+    margin-left: 20%;
+    margin-right: 20%;
+    margin-bottom: 2em;
+}
+
+.donation-box-design1 {
+    background-color: #c3f1f7;
+    padding: 1em;
+    margin-right: 15px;
+}
+
+.donation-box-design2 {
+    background-color: #d2c3c3;
+    padding: 1em;
+    margin-right: 15px;
+}
+
+.donation-box-design3 {
+    background-color: rgb(232, 232, 200);
+    padding: 1em;
+}
+
+.bottom-part {
+    display: flex;
+    margin-left: 20%;
+    margin-right: 20%;
+    padding: 4em 8em;
+    background-color: #FFF4D6;
+    justify-content: center;
+}
+
+.bottom-input {
+    box-sizing: border-box;
+
+
+}
+
+.bottom-input {
+    background-color: #D9D9D9;
+    border-radius: 5px;
+}
+
+input {
+    border-style: hidden;
+    background-color: #D9D9D9;
+
+}
+
+.bottom-button {
+    background-color: #FF5959;
+    border-radius: 5px;
 }
