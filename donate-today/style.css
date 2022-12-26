@@ -1,0 +1,31 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.banner-design {
+    background-image: url("images/donation4.jpg");
+    background-repeat: no-repeat;
+    padding: 20em;
+    background-size: 100%;
+    text-align: center;
+    color: rgb(255, 255, 255);
+}
+
+
+
+#button {
+    background-color: #1472dc;
+    width: 100px;
+    padding: 10px;
+    border-radius: 10px;
+    margin-left: 350px;
+
+}
+
+.banner-content,
+h1,
+p {
+
+    padding: 10px;
+}
