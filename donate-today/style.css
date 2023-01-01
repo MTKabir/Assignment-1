@@ -1,46 +1,52 @@
+/* making margin and padding 0 for whole page first*/
 * {
     margin: 0;
     padding: 0;
 }
 
+/*using a font for whole body content*/
 body {
     font-family: 'Inter', sans-serif;
     font-family: 'Open Sans', sans-serif;
 }
 
+/* Design the banner and content of the banner*/
 .banner-design {
     background-image: url("images/donation4.jpg");
     background-repeat: no-repeat;
     padding: 20em;
     background-size: 100%;
     text-align: center;
+    margin-bottom: 2em;
     color: rgb(255, 255, 255);
+
 }
 
-
-
+/* button for banner image*/
 #button {
+
     background-color: #FF5959;
     width: 100px;
     padding: 10px;
     border-radius: 10px;
-    margin-left: 350px;
-
+    margin-left: 40%;
 }
 
+/*Set padding for banner content*/
 .banner-content,
 h1,
 p {
-
     padding: 10px;
 }
 
-.middle-content {
+/*set all the content in the middle*/
+.content {
     text-align: center;
-    margin-top: 50px;
-    margin-bottom: 30px;
+    margin-bottom: 2em;
+
 }
 
+/*Making donation amount boxes in one line by flex*/
 .donation-amount {
     display: flex;
     text-align: center;
@@ -49,12 +55,14 @@ p {
 
 }
 
+/*Donation amount individual boxes design*/
 .donation-amount-design {
     background-color: #FAFAFA;
     padding: 2em;
     margin-right: 15px;
 }
 
+/*Donation amount default individual box design*/
 .donation-amount-design-default {
 
     background-color: #FFEEEE;
@@ -64,34 +72,24 @@ p {
     border: 1px solid #FF5959;
 }
 
-.donation-other-amount {
-    text-align: center;
-}
-
+/*Set opacity of other amount*/
 .set-opacity {
     opacity: 0.5;
 }
 
-#button-donate {
-    background-color: #FF5959;
-    width: 100px;
-    padding: 10px;
-    border-radius: 10px;
-    margin-left: 46%;
-    margin-top: 20px;
-    margin-bottom: 2em;
-
-}
-
+/*Set margin on both side of horizontal line*/
 hr {
     margin-left: 20%;
     margin-right: 20%;
 }
 
-.content {
-    text-align: center;
-    margin-bottom: 2em;
-
+/*Design button for donate amount*/
+#button-donate {
+    background-color: #FF5959;
+    width: 100px;
+    padding: 10px;
+    border-radius: 10px;
+    margin: 10px 0 0 46%;
 }
 
 .donation-boxes {
@@ -101,6 +99,7 @@ hr {
     margin-bottom: 2em;
 }
 
+/*Three boxes of donation plan design*/
 .donation-box-design1 {
     background-color: #c3f1f7;
     padding: 1em;
@@ -118,10 +117,12 @@ hr {
     padding: 1em;
 }
 
+/*Design for bonus point*/
 .bonus-part-design {
     display: flex;
     margin-left: 17%;
     margin-right: 17%;
+    margin-bottom: 1em;
 
 }
 
@@ -142,7 +143,7 @@ hr {
     padding: 2em;
 }
 
-
+/*Bottom part design*/
 .bottom-part {
     display: flex;
     margin-left: 20%;
@@ -176,6 +177,9 @@ input {
     border-radius: 5px;
 }
 
+/*Bottom part design end*/
+
+/*Design for footer*/
 footer {
     text-align: center;
     background-color: black;
